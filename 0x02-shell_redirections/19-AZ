@@ -1,0 +1,2 @@
+#!/bin/bash
+tr 'Ac' 'ze' < /etc/ssh/sshd_config
