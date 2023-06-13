@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'Ac' 'ze' < /etc/ssh/sshd_config
+cat /etc/ssh/sshd_config | tr 'A' 'z' | tr 'c' 'e'
